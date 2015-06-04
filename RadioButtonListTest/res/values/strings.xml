@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RadioButtonListTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="select_authors">选择你喜欢的作家:</string>
+	<string name="author_name">name</string>
+</resources>
