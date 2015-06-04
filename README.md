@@ -7,17 +7,16 @@
 
     holder.selectBtn.setClickable(false);
     holder.layout.setOnClickListener(new OnClickListener(){
-	@Override
-      public void onClick(View view) {
-    	  index = position;
-	  notifyDataSetChanged();
+        @Override
+        public void onClick(View view) {
+    	    index = position;
+    	    notifyDataSetChanged();
     	}
     });
     
     ...
-    
     if (index == position) {
-      holder.selectBtn.setChecked(true);
+        holder.selectBtn.setChecked(true);
     } else {
-    	holder.selectBtn.setChecked(false);
+        holder.selectBtn.setChecked(false);
     }
