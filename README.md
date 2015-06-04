@@ -7,10 +7,10 @@
 
     holder.selectBtn.setClickable(false);
     holder.layout.setOnClickListener(new OnClickListener(){
-		  @Override
+	@Override
       public void onClick(View view) {
     	  index = position;
-		    notifyDataSetChanged();
+	  notifyDataSetChanged();
     	}
     });
     
